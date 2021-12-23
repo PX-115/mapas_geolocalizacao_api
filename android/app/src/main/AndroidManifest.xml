@@ -1,5 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.cursoflutter.mapasapi.mapas_geolocalizacao_api">
+    package="com.cursoflutter.mapasapi.mapas_geolocalizacao_api"> 
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
    <application
         android:label="mapas_geolocalizacao_api"
         android:icon="@mipmap/ic_launcher">
@@ -38,6 +40,6 @@
             android:name="flutterEmbedding"
             android:value="2" />
         <meta-data android:name="com.google.android.geo.API_KEY"
-               android:value="AIzaSyBuVC6b8-aWlQFW5ZcuDbvKHluBAnAOKP0"/>
+               android:value="AIzaSyCfT4gO97C9iYBzcqJmMlMAMY1YuTVfock"/>
     </application>
 </manifest>
